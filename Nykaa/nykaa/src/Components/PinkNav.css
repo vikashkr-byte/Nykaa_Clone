@@ -1,0 +1,9 @@
+.pinkNavRight{
+    display: flex;
+}
+.pinkNavBtn{
+    display: flex;
+}
+.pinkright:hover{
+color: rgb(252,40,122);
+}
