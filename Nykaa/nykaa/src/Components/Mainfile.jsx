@@ -4,6 +4,7 @@ import BrandsItems from "./BrandsItems";
 import DisplayDropDown from "./DisplayDropDown";
 import Navbar from "./Navbar";
 import PinkNav from "./PinkNav";
+import SecondaryNavbar from "./SecondaryNavbar";
 
 const Mainfile = () => {
   return (
@@ -11,7 +12,7 @@ const Mainfile = () => {
       <PinkNav />
       <Navbar />
       <Divider orientation="horizontal" border={"0.5px"} bg={"darkgray"} />
-    {/* <DisplayDropDown/> */}
+      <SecondaryNavbar />
     </div>
   );
 };
