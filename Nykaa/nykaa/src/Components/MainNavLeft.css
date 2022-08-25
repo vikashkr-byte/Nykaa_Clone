@@ -3,23 +3,76 @@
     font-weight: 600;
     padding-right: 15px;
     margin-left: -10px;
+    height: 100%;
     font-family: sans-serif;
 }
 #menuItemsBrands:hover{
 color: rgb(252,39,121);
 
 }
+#menuItemsLuxe:hover{
+color: rgb(252,39,121);
+
+}
+#menuItemsAdvice:hover{
+color: rgb(252,39,121);
+
+}
 #menuItemsBrands{
     position: relative;
 cursor: pointer;
+height: 100%;
+}
+#menuItemsLuxe{
+    position: relative;
+cursor: pointer;
+height: 100%;
+}
+#menuItemsAdvice{
+    position: relative;
+cursor: pointer;
+height: 100%;
+}
+.dropDownstyling:hover{
+display: block;
+}
+.dropDownstylingLuxe:hover{
+display: block;
+}
+.dropDownstylingAdvice:hover{
+display: block;
 }
 .dropDownstyling{
     position: absolute;
  z-index: 1000; 
  margin-left: -100px;  
- margin-top: 20px;
+ margin-top: -15px;
+ display: none;
+}
+.dropDownstylingLuxe{
+    position: absolute;
+ z-index: 1000; 
+ margin-left: -280px;  
+ margin-top: -14px;
+ display: none;
+}
+.dropDownstylingAdvice{
+    position: absolute;
+ z-index: 1000; 
+ margin-left: -280px;  
+ margin-top: 10px;
  display: none;
 }
 #menuItemsBrands:hover + .dropDownstyling{
     display:block ;
+}
+#menuItemsLuxe:hover + .dropDownstylingLuxe{
+    display:block ;
+}
+#menuItemsAdvice:hover + .dropDownstylingAdvice{
+    display:block ;
+}
+.brandsTest{
+    height: 100%;
+    
 }

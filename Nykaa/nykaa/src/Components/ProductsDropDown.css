@@ -1,0 +1,40 @@
+.NykaaFashionWhite{
+    background-color: rgb(255,255,255);
+    width: 200px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.NykaaFashionGray{
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 200px;
+    background-color: rgb(230, 230, 230);
+}
+.textTobeBold{
+    color: rgb(17, 17, 17);
+    font-weight: 600;
+}
+.textTobeBold:hover{
+    color: rgb(252,52,129);
+}
+.textTobeLight{
+    color: rgb(55, 55, 55);
+    font-weight: 400;
+    
+}
+.textTobeLight:hover{
+    color: rgb(252,52,129);
+}
+.blanksGray{
+    color: rgb(230, 230, 230);
+}
+.NykaaFashionImageMain{
+    padding:15px;
+    
+}
+.NykaaFashionImageBox{
+    width: 100%;
+}
+.NykaaFashionImage{
+    width:100%;
+}
