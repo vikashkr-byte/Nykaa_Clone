@@ -4,11 +4,10 @@ import { GrLocation } from "react-icons/gr";
 import { MdOutlineCardGiftcard } from "react-icons/md";
 import { FiHelpCircle } from "react-icons/fi";
 import {
-  Box as Box,
-  Button,
+  
   Divider,
   HStack,
-  Icon,
+  
   Center,
 } from "@chakra-ui/react";
 import './PinkNav.css'

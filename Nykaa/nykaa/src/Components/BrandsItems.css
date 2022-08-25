@@ -1,0 +1,114 @@
+.withSearchBox{
+    /* height: 300px; */
+    width: 40%;
+    /* border: 1px solid tomato; */
+    
+}
+.searchBoxSub{
+    height: 80px;
+    margin: 20px;
+    border-radius: 2px;
+    margin-bottom: -29px;
+}
+.NoSearchBoxWords h2{
+    padding:15px;
+letter-spacing: -0.2px;
+word-spacing: -0.3px;
+font-weight: 600;
+color: rgb(122, 113, 113);
+}
+.NoSearchBoxLetters h3{
+    font-size: 13px;
+  color: rgb(48, 47, 47);
+
+}
+.NoSearchBoxLetters{
+    cursor: pointer;
+
+    line-height: 14px;
+}
+.NoSearchBoxWords::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.NoSearchBoxWords{
+    line-height: 17px;
+   height: 400px;
+    overflow: scroll;
+  margin-right: 30px;
+  cursor: pointer;
+  color: rgb(48, 47, 47);
+    /* border: 1px solid red; */
+}
+.NoSearchBoxWords>h2:hover{
+color: rgb(252,52,129);
+}
+.NoSearchBoxWords>h3:hover{
+color: rgb(252,52,129);
+}
+.NoSearchBoxLetters h3:hover{
+color: rgb(252,52,129);
+}
+.NoSearchBox{
+  display: flex;
+width: 350px;
+/* background-color: aqua; */
+justify-content: space-between;
+padding: 20px;
+margin-left: -50px;
+
+}
+.blanks{
+    color: rgb(255,255,255);
+}
+.blanks:hover{
+    color: rgb(255,255,255);
+}
+.withoutSearchBox{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background: rgb(255,255,255);
+    height: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.WSBbuttonbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 15px;
+    background-color: rgb(203, 203, 203);
+}
+.WSBBtn{
+    margin-top: 20px;
+   color: rgb(34, 34, 34);
+    background:rgb(218, 218, 218) ;
+    padding: 5px 17px 5px 17px;
+}
+.WSBBtn:hover{
+    margin-top: 20px;
+   color: rgb(255,255,255);
+    background:rgb(252,52,129) ;
+    padding: 5px 17px 5px 17px;
+}
+.brandLogo{
+    width: 120px;
+margin: 10px;
+}
+.brandLogo:hover{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.brandlogoImg{
+    width: 100%;
+}
+.WSBLogoBox{
+    display: grid;
+    height: 400px;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    overflow: scroll;
+}
+.WSBLogoBox::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

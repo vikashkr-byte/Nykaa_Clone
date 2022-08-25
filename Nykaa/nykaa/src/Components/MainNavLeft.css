@@ -1,0 +1,25 @@
+.menuItems{
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 15px;
+    margin-left: -10px;
+    font-family: sans-serif;
+}
+#menuItemsBrands:hover{
+color: rgb(252,39,121);
+
+}
+#menuItemsBrands{
+    position: relative;
+cursor: pointer;
+}
+.dropDownstyling{
+    position: absolute;
+ z-index: 1000; 
+ margin-left: -100px;  
+ margin-top: 20px;
+ display: none;
+}
+#menuItemsBrands:hover + .dropDownstyling{
+    display:block ;
+}
