@@ -1,0 +1,41 @@
+{
+    "navbarItems": {
+        "mainitems": [
+            {
+                "id": 1,
+                "title": "Categories",
+                "path": "/categories",
+                "cName": "navItems"
+            },
+            {
+                "id": 2,
+                "title": "Brands",
+                "path": "/breands",
+                "cName": "navItems"
+            },
+            {
+                "id": 3,
+                "title": "Luxe",
+                "path": "/luxe",
+                "cName": "navItems"
+            },
+            {
+                "id": 4,
+                "title": "Nykaa Fashion",
+                "path": "/nykaa_fashion",
+                "cName": "navItems"
+            },
+            {
+                "id": 5,
+                "title": "Beauty Advice",
+                "path": "/beauty_advice",
+                "cName": "navItems"
+            }
+        ]
+    },
+    "brandsName":[
+        {
+            
+        }
+    ]
+}

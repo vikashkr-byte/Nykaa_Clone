@@ -8,7 +8,9 @@ const Logobox = () => {
     mr={'25px'}
     mt={'16px'}
     mb={'20px'}
-    boxSize="80px">
+    maxW="80px"
+    maxH="30px"
+    >
       <Image
         src="https://logos-download.com/wp-content/uploads/2021/01/Nykaa_Logo.png"
         alt="mainlogo"
