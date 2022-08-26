@@ -25,7 +25,7 @@ const BrandsItems = () => {
   //   }, [])
 
   return (
-    <HStack border={"1px"} color={"red"} w={"100%"} direction={"row"}>
+    <HStack border={"1px"} bg={"rgb(255,255,255)"} w={"100%"} direction={"row"}>
       <div className="withSearchBox">
         <VStack>
           <div className="searchBoxSub">

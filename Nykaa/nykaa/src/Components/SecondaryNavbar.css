@@ -4,4 +4,21 @@
 }
 .lipstickSmudgeImage{
     height: 100%;
+    position: relative;
+}
+.offerTextSmudge{
+    position: absolute;
+        z-index: -1;
+        font-size: 9px;
+        margin-top: -24px;
+        margin-left: 13px;
+        
+}
+.SecondmenuItems{
+    color: lightslategray;
+    font-weight: 500;
+}
+.SecondmenuItems:hover{
+    color: rgb(252,52,129);
+
 }
