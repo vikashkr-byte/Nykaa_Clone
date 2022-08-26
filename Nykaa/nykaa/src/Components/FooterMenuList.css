@@ -1,0 +1,27 @@
+.FooterMenuListBox{
+    background-color: rgb(140,141,148);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 50px;
+}
+.footerWhiteLogo{
+    width: 130px;
+    margin-bottom: 30px;
+}
+.FooterMenuListPtag{
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+.FooterMenuListPtag:hover{
+    color: rgb(252,39,121);
+}
+.FooterMenuListPtag2{
+    font-size: 14px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.FooterMenuListPtag2:hover{
+    color: rgb(252,39,121);
+}

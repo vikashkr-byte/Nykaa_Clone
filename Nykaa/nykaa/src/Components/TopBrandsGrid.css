@@ -1,0 +1,46 @@
+.topBrandsStaticBox {
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+  padding: 15px;
+}
+.topBrandsStaticText {
+  font-size: 27px;
+  font-weight: 600;
+  color: rgb(58, 57, 57);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.topBrandsStaticGridBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+    width: 90%;
+    margin: auto;
+}
+.topBrandsStaticGridImages {
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.topBrandsStaticDealsBox{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.topBrandsStaticText{
+
+    color: rgb(58, 57, 57);
+    margin-top: 20px;
+}
+.topBrandsStaticGridBox2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+    width: 90%;
+    margin: auto;
+}
+.topBrandsStaticGrid2Image{
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
