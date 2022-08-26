@@ -2,8 +2,12 @@ import { Divider,Box } from "@chakra-ui/react";
 import React from "react";
 import BrandsItems from "./BrandsItems";
 import CarouselBig from "./CarouselBig";
+import ContactUsNykaa from "./ContactUsNykaa";
 import DisplayDropDown from "./DisplayDropDown";
+import FooterMenuList from "./FooterMenuList";
+import FreeShippingInfo from "./FreeShippingInfo";
 import ImageBelowBigCarousel from "./ImageBelowBigCarousel";
+import LastFooter from "./LastFooter";
 import Navbar from "./Navbar";
 import PinkNav from "./PinkNav";
 import SecondaryMenuDropDown from "./SecondaryMenuDropDown";
@@ -28,11 +32,10 @@ const Mainfile = () => {
      <ImageBelowBigCarousel />
      <StaticImage2/>
      <TopBrandsGrid/>
-      {/* <Divider orientation="horizontal" mt={"30px"} border={"5px"}
-      //  bg={"rgb(255,255,255)"} 
-       bg={"red"}  */}
-       {/* /> */}
-     {/* <CarouselBig/> */}
+     <ContactUsNykaa/>
+     <FooterMenuList/>
+     <FreeShippingInfo/>
+    <LastFooter/>
 
     </div>
   );
