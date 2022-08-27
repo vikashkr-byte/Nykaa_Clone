@@ -15,9 +15,9 @@ const Bonanaza = () => {
         <div style={{ fontWeight: "500", color: "rgb(50,49,68)" }}>
           BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals
         </div>
-      ) : (
-        ""
-      )}
+      ) : 
+        null
+      }
     </div>
   );
 };
