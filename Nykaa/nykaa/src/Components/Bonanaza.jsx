@@ -16,7 +16,7 @@ const Bonanaza = () => {
           BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals
         </div>
       ) : 
-        null
+        ""
       }
     </div>
   );
