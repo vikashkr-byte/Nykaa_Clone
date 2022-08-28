@@ -1,7 +1,7 @@
 Project Code: orange-holiday-5937
 
 Project: https://www.nykaa.com
-
+Deployed Link: https://imaginative-dango-e8352b.netlify.app/
 IA Manager: Bishal Samanta
 
 Buddy: fw18_0616 - Pravhat Ray
